@@ -112,7 +112,7 @@
     <li class="list-group-item">Project : engineering school</li>
   </ul>
   <div class="card-block">
-    <a style="display: flex;justify-content: center;" href="#" class="btn btn-primary">Read More</a>
+    <a style="display: flex;justify-content: center;" href="ReadMore/readMore.php" class="btn btn-primary">Read More</a>
   </div>
 </div>
 </div>

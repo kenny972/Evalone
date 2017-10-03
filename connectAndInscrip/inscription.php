@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="no-js" lang="fr">
 	<head>
@@ -18,7 +19,7 @@
 	</head>
 	<body>
 
-<h1 style="text-align: center;">Welcome in our page ! Register you</h1>
+<h1 style="text-align: center; color: #0778BF;">Welcome in our page ! Register you</h1>
 
 
 <div style="display: flex;justify-content: center;">

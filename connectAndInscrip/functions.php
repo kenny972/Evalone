@@ -1,3 +1,25 @@
+<?php
+try
+
+{
+
+    // Connexion à mysql
+    $bdd = new PDO('mysql:host=localhost;dbname=moreau;charset=utf8', 'root', 'root');
+
+}
+
+catch(Exception $e)
+
+{
+
+    // En cas d'erreur, on affiche un message et on arrête tout
+
+        die('Erreur : '.$e->getMessage());
+
+}
+?>
+
+
 <!doctype html>
 <html class="no-js" lang="fr">
 	<head>
@@ -18,19 +40,9 @@
 	</head>
 	<body>
 
-<h1 style="text-align: center;color: #0778BF">Log in</h1>
 
-<div style="display: flex;justify-content: center;">
-<form method="post" action="traitement.php">
-   <p>
-       <input type="text" name="pseudo" id="pseudo" placeholder="@em@il" />
-       <br />
 
-       <input type="password" name="pass" id="pass" placeholder="password" /><br>
-       <input type="submit" name="submit" value="submit">
-   </p>
-</form>
-</div>
+
 
 </body>
 </html>
