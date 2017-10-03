@@ -34,11 +34,11 @@
     <!-- section with button -->
     <section class="ci">
 
-        <a href="inscription.php">
-        <input type="submit" placeholder="connection" name="inscription" value="inscription">
+        <a href="connectAndInscrip/inscription.php">
+        <input type="submit" placeholder="inscription" name="inscription" value="inscription">
         </a>
 
-        <a href="inscription.php"><input type="submit" placeholder="connection" name="connection" value="connection">
+        <a href="connectAndInscrip/connection.php"><input type="submit" placeholder="connection" name="connection" value="connection">
         </a>
 
     </section>
@@ -112,7 +112,7 @@
     <li class="list-group-item">Project : engineering school</li>
   </ul>
   <div class="card-block">
-    <a href="#">Read more</a>    
+    <a style="display: flex;justify-content: center;" href="#" class="btn btn-primary">Read More</a>
   </div>
 </div>
 </div>
